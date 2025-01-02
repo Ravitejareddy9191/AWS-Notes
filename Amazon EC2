@@ -9,4 +9,26 @@ Defination:
                         EC2 Instance         -  Memory
                                              -  Network
                                              -  Storage
+Amazon EC2 Instance types
+        1. General Purpose
+        2. Compute optimized
+        3. Memory optimized
+        4. Storage optimzed
+        5. Accelerated commputing
+        6. High Performance computing
 Features of Amazon EC2
+-- Instances
+           Virtual Servers
+-- Amazon Machine Images(AMIs)
+           Preconfigured templates for your instances that packages the components you need for your server(Including the operating system and additional software).
+-- Instance types
+           Various configurations of CPU, memory, storage, networking capacity, and graphics hardware for your instances.
+-- Amazon EBS Volumes
+           Persistent storage volumes for your data using Amazon Elastic Block Store.
+-- Instance store Volumes
+           Storage volumes for temporary data that is deleted when you stop, hibernate, or terminate your instance.
+-- Keypairs
+           Secure login information for your instances. AWS Stores the public key, and you store the private key in a secure place.
+-- Security Groups
+           A virtual firewall that allows you to specify the protocols, ports, and source IP ranges that can reach your instances, and the destination IP ranges 
+           to which your instances can connect.

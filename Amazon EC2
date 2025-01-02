@@ -1,2 +1,12 @@
-# Defination
+Defination: 
+          Amazon EC2 provide on-demand, scalable computing capacity in the AWS Cloud.
+          Amazon EC2 reduces hardware costs so you can develop and deploy applications faster.
+          An EC2 is a virtual server in the cloud
+          When we launch an EC2 Instance, the instance type that you specify determines the hardware available to your instance.
+          Each Instance type offers a diiferent balance of compute, memory, network, and storage resources.
        
+                                             -  Compute
+                        EC2 Instance         -  Memory
+                                             -  Network
+                                             -  Storage
+Features of Amazon EC2

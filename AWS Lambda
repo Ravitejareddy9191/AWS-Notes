@@ -1,12 +1,8 @@
 Defination
-       - You can use Lambda to run code without provisioning or managing servers.
-       - Lambda runs your code on a high-availability compute infrastructure and performs all of the administration of the compute resources,
-         Including server and operating system maintenance, capacity provisioning and automatic scaling, and logging.
-         With Lambda, all you need to do is supply your code in one of the language runtimes that Lambda supports.
-When to use Lambda
-       - Lambda is an ideal compute service for application scenarios that need to scale up rapidly, and scale down to zero when not in demand. For example you cna use Lambda for
-              - File processing
-              - Stream Processing
-              - Web Applications
-              - IoT backends
-              - Mobile backends
+       AWS Lambda is a serverless compute service provided by AWS that lets you run code without provisioning or managing servers.
+       It executes your code only when triggered and autommatically scales to handle the size of your workload.
+Key Features
+       1. Serverless Architecture: No need to manage or maintain infrastructure.
+       2. Pay-As-You-Go: Charges only for the compute time used.
+       3. Event-Driven: Triggered by events such as API calls, database updates, file uploads etc
+       4. Automatic Scaling: Scales automatically with workload.

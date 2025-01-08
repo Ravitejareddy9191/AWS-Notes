@@ -3,7 +3,7 @@ Defination:
           Amazon EC2 reduces hardware costs so you can develop and deploy applications faster.
           An EC2 is a virtual server in the cloud
           When we launch an EC2 Instance, the instance type that you specify determines the hardware available to your instance.
-          Each Instance type offers a diiferent balance of compute, memory, network, and storage resources.
+          Each Instance type offers a different balance of compute, memory, network, and storage resources.
        
                                              -  Compute
                         EC2 Instance         -  Memory
@@ -13,7 +13,7 @@ Amazon EC2 Instance types
         1. General Purpose
         2. Compute optimized
         3. Memory optimized
-        4. Storage optimzed
+        4. Storage optimized
         5. Accelerated computing
         6. High Performance computing
 Features of Amazon EC2

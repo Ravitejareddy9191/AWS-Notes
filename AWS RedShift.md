@@ -11,5 +11,8 @@
      7. Simple database Migration
           
 ![Architecture](https://github.com/user-attachments/assets/fab640ce-4d6e-4001-bdfd-7f4c1391357d)
+## Additional Concepts of RedShift
+     1. Column Storage
+     2. Compression
 
 

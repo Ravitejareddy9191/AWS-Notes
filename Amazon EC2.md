@@ -1,34 +1,47 @@
-## Defination: 
-          Amazon EC2 provide on-demand, scalable computing capacity in the AWS Cloud.
-          Amazon EC2 reduces hardware costs so you can develop and deploy applications faster.
-          An EC2 is a virtual server in the cloud
-          When we launch an EC2 Instance, the instance type that you specify determines the hardware available to your instance.
-          Each Instance type offers a different balance of compute, memory, network, and storage resources.
-       
-                                             -  Compute
-                        EC2 Instance         -  Memory
-                                             -  Network
-                                             -  Storage
-### Amazon EC2 Instance types
-        1. General Purpose
-        2. Compute optimized
-        3. Memory optimized
-        4. Storage optimized
-        5. Accelerated computing
-        6. High Performance computing
-### Features of Amazon EC2
-     1. Instances
-           Virtual Servers
-     2. Amazon Machine Images(AMIs)
-           Preconfigured templates for your instances that packages the components you need for your server(Including the operating system and additional software).
-     3. Instance types
-           Various configurations of CPU, memory, storage, networking capacity, and graphics hardware for your instances.
-     4. Amazon EBS Volumes
-           Persistent storage volumes for your data using Amazon Elastic Block Store.
-     5. Instance store Volumes
-           Storage volumes for temporary data that is deleted when you stop, hibernate, or terminate your instance.
-     6. Keypairs
-           Secure login information for your instances. AWS Stores the public key, and you store the private key in a secure place.
-     7. Security Groups
-           A virtual firewall that allows you to specify the protocols, ports, and source IP ranges that can reach your instances, and the destination IP ranges 
-           to which your instances can connect.
+### AWS Cloud: 
+     → AWS Cloud is a widely adopted cloud computing platform offered by Amazon.  
+     → It provides on demand access to IT resources like computing power, storage, databases, networking, machine Learning, security and more – all delivered over the internet on 
+      a pay-as-you-go basis. 
+    Key Features of AWS Cloud 
+     → Scalability 
+     → Flexibility 
+     → Global Reach 
+     → Security 
+     → Cost-Effective 
+     → Wide Range of Services 
+### What can you do with AWS Cloud? 
+     → Host websites and applications 
+     → Run and manage containers or Kubernetes 
+     → Store and back up data securely 
+### Amazon EC2
+      Amazon Elastic Compute Cloud provides on-demand, scalable computing capacity in the Amazon Web Services Cloud. 
+
+### Steps to use Amazon EC2 
+     1. Choosing an AMI 
+        → Amazon Machine Image is a template that is used to create a new instance/machine based on user requirement. 
+        → The AMI would contain Software Information, Operating System Information, Volume Information, Access    Permissions. 
+        → AMI’s are of 2 types 
+                  Predefined AMI’s - are created by Amazon and can be modified by the user. 
+                  Custom AMI’s - are created by the user so that they can be reused. 
+     2. Choosing an Instance Type 
+        → An Instance type specifies the hardware specifications that are required in the machine. 
+        → These Instances are divided into 5 families 
+            Compute Optimized 
+                For situations that require a lot of processing power. 
+            Memory Optimized 
+                For setting up something to do with your in-memory cache. 
+            GPU Optimized 
+                For setting up a gaming system or something with a large graphical requirement. 
+            Storage optimized 
+                For setting up a storage server 
+            General Purpose 
+      3. Configuring Instance 
+            You must specify the number of instances, purchasing options, the kind of network, the subnet, when to assign a public IP, the IAM role the shutdown behavior etc. 
+      4. Adding Storage 
+            You are tasked with deciding the type of storage which could be  
+             Ephemeral Storage (Temporary and free) 
+             Amazon Elastic Block Storage (permanent and paid) 
+             Amazon S3 
+      5. Adding Tags 
+      6. Configuring Security Groups 
+      7. Review 
